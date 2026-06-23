@@ -1,16 +1,35 @@
-## Hi there 👋
+# Hi, I'm Shubhrato 👋
 
-<!--
-**shubhrato-badole/shubhrato-badole** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Final-Year Computer Science (Cyber Security) Student at G.H. Raisoni College of Engineering and Management.
 
-Here are some ideas to get you started:
+## 🚀 Tech Stack
+- JavaScript
+- TypeScript
+- React
+- Node.js
+- PostgreSQL
+- Redis
+- Docker
+- Python
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔥 Featured Projects
+
+### JobFit
+AI-powered job matching platform with resume analysis, skill gap detection, and Redis caching.
+
+### Spur AI Support Agent
+Customer support chatbot using Gemini AI, PostgreSQL, and Redis.
+
+### SafeSpeak
+Anonymous harassment evidence collection platform with encrypted storage and panic mode.
+
+## 🌱 Currently Learning
+- RAG (Retrieval-Augmented Generation)
+- LangChain
+- Vector Databases
+- FastAPI
+- LLM Applications
+
+## 📫 Connect With Me
+- LinkedIn: [Your LinkedIn URL]
+- Email: your-email@example.com
