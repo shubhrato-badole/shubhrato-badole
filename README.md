@@ -6,7 +6,7 @@
 
 &nbsp;
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-shubhrato-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/shubhrato-badole-5096381ba) &nbsp;&nbsp; [![Portfolio](https://img.shields.io/badge/Portfolio-shubhrato.dev-080808?style=flat-square&logo=vercel)](https://github.com/shubhrato-badole/shubhrato-portfolio) &nbsp;&nbsp; [![Email](https://img.shields.io/badge/Email-bshubhrato%40gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:bshubhrato@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-shubhrato-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/shubhrato-badole-5096381ba) &nbsp;&nbsp; [![Portfolio](https://img.shields.io/badge/https://shubhrato-portfolio.vercel.app?style=flat-square&logo=vercel)](https://github.com/shubhrato-badole/shubhrato-portfolio) &nbsp;&nbsp; [![Email](https://img.shields.io/badge/Email-bshubhrato%40gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:bshubhrato@gmail.com)
 
 </div>
 
