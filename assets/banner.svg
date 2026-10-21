@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Shubhrato Badole, Software Engineer, AI and RAG, Backend">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.55" stop-color="#14122b"/>
+      <stop offset="1" stop-color="#2a1f63"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c6cf0"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" rx="14" fill="url(#bg)"/>
+  <rect x="64" y="64" width="6" height="104" rx="3" fill="url(#accent)"/>
+  <text x="92" y="116" fill="#ffffff" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="-1">Shubhrato Badole</text>
+  <text x="94" y="162" fill="#c4b5fd" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="500">Software Engineer  ·  AI &amp; RAG Systems  ·  Backend</text>
+  <text x="94" y="214" fill="#8b949e" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20">Cyber Security background  ·  Nagpur, India  ·  Open to work</text>
+</svg>

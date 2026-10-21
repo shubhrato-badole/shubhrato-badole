@@ -1,90 +1,76 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:080808,100:1a1a2e&height=180&section=header&text=Shubhrato%20Badole&fontSize=48&fontColor=ffffff)
+<p align="center">
+  <img src="assets/banner.svg" alt="Shubhrato Badole: Software Engineer, AI and RAG systems, Backend" width="100%" />
+</p>
 
-<div align="center">
+<p align="center">
+  <a href="https://linkedin.com/in/shubhrato">LinkedIn</a> ·
+  <a href="https://shubhrato.dev">Portfolio</a> ·
+  <a href="mailto:bshubhrato@gmail.com">bshubhrato@gmail.com</a>
+</p>
 
-**Full-Stack Engineer · Agentic AI/RAG Systems · Cybersecurity Background**
+I build AI products end to end: agentic RAG systems, full-stack apps and secure backends. I measure what I build. ResearchMind AI ships with its own 100-question retrieval benchmark, and JobFit's Redis cache took repeat requests from about 4 s to 5 ms.
 
-&nbsp;
+B.Tech in Computer Science (Cyber Security), 2026. My security background, including an internship with the State Cyber Crime Investigation Unit, shapes how I design auth, validation and data handling.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-shubhrato-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/shubhrato) &nbsp;&nbsp; [![Portfolio](https://img.shields.io/badge/Portfolio-shubhrato.dev-080808?style=flat-square&logo=vercel)](https://github.com/shubhrato-badole/shubhrato-portfolio) &nbsp;&nbsp; [![Email](https://img.shields.io/badge/Email-bshubhrato%40gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:bshubhrato@gmail.com)
+**Open to** full-stack, AI/RAG and backend engineering roles.
 
-</div>
+## Featured projects
 
----
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/shubhrato-badole/researchmind-ai"><img src="assets/researchmind.png" alt="ResearchMind AI flagging a contradiction between two documents and citing both sources" /></a>
+      <h3><a href="https://github.com/shubhrato-badole/researchmind-ai">ResearchMind AI</a></h3>
+      <p>Agentic RAG assistant that answers from your own documents, with sources.</p>
+      <ul>
+        <li>LangGraph agent that asks for approval before searching the web. Answers cite their sources and flag contradictions between documents.</li>
+        <li>Hybrid retrieval (BM25 + vector, RRF fusion) benchmarked against vector-only and reranked retrieval on a 100-question set. Hybrid reached Recall@5 of 97.5% on the development split.</li>
+        <li>Full stack: React 19, TypeScript, FastAPI, PostgreSQL, Redis, ChromaDB, S3. Razorpay freemium with Redis quotas.</li>
+      </ul>
+      <sub>Python · FastAPI · LangGraph · ChromaDB · React 19 · TypeScript</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/shubhrato-badole/JobFit"><img src="assets/jobfit.png" alt="JobFit dashboard showing applications, average match score and top skill gaps" /></a>
+      <h3><a href="https://github.com/shubhrato-badole/JobFit">JobFit</a> · <a href="https://job-fit-murex.vercel.app">Live demo</a></h3>
+      <p>Upload a resume, get a match score for any job and the exact skills you're missing.</p>
+      <ul>
+        <li>Gemini match scores (0-100) with skill-gap analysis, an AI career assistant, job search and a Kanban application tracker.</li>
+        <li>Redis caching cut repeat-request latency from about 4 s to 5 ms (50 concurrent requests).</li>
+        <li>httpOnly JWT cookies with 30-minute and 7-day rotation, bcrypt, parameterised SQL and rate limiting. Dockerized behind Nginx, deployed on Vercel and Render.</li>
+      </ul>
+      <sub>React · Node.js · Express · PostgreSQL · Redis · Gemini · Docker</sub>
+    </td>
+  </tr>
+</table>
 
-### About me
+**More**
 
-I build production-grade full-stack applications and agentic AI/RAG systems — B.Tech in Computer Science (Cybersecurity), G.H. Raisoni College of Engineering and Management, Nagpur (2026).
+- **[Spur RAG Pipeline](https://github.com/shubhrato-badole/spur)**: a RAG microservice built without LangChain or LlamaIndex. Sentence-aware chunker (500 characters, 100 overlap), `gemini-embedding-001` at 768 dimensions, cosine search with pgvector.
+- **[Portfolio](https://github.com/shubhrato-badole/shubhrato-portfolio)**: interactive React, TypeScript, Vite and Tailwind site with a typewriter entry gate and a circuit puzzle that unlocks my résumé.
 
-My angle: **cybersecurity fundamentals + applied AI engineering**. I've built agentic RAG pipelines from scratch (custom LangGraph state machines, hybrid search, rerankers), shipped full-stack platforms with real users, and investigated cyber crime with the State Cyber Crime Investigation Unit.
+## Experience
 
-Currently open to full-stack, AI/RAG engineering, and software engineering roles.
+- **Cyber Cell Intern**, State Cyber Crime Investigation Unit, Govt. of Maharashtra (Jan-Jun 2026). Analyzed 20-30 phishing and financial-fraud complaints a week and contributed to a monitoring portal built with Python, FastAPI, PostgreSQL and React.
+- **Digital Forensics Intern**, Crypto Forensic Technology (Jun-Jul 2025). Verified evidence integrity with SHA-256 hashing and wrote forensic reports aligned with legal admissibility standards.
 
----
+## Tech stack
 
-### What I've shipped
+| | |
+|---|---|
+| **Languages** | Python, TypeScript, JavaScript, SQL, Bash |
+| **AI / RAG** | LangGraph, LangChain, LangSmith, hybrid search (BM25 + RRF), BGE reranker, embeddings, pgvector, ChromaDB, Gemini API |
+| **Backend** | FastAPI, Node.js, Express, REST APIs, JWT |
+| **Frontend** | React 19, Tailwind CSS, Vite |
+| **Data** | PostgreSQL, Redis, MongoDB |
+| **Cloud and DevOps** | Docker, Nginx, GitHub Actions, AWS (EC2, S3), Vercel, Render |
+| **Security** | OWASP Top 10, SHA-256, digital forensics |
 
-**[ResearchMind AI](https://github.com/shubhrato-badole/researchmind-ai)** — Agentic RAG research platform
-> LangGraph · FastAPI · Hybrid Search (BM25 + Vector RRF) · BGE Reranker · React 19 · TypeScript
-- Custom `StateGraph` agent with human-in-the-loop approval gating before external web searches
-- Hybrid retrieval combining BM25 keyword search + vector search, fused via Reciprocal Rank Fusion (RRF), then re-ranked with a BGE cross-encoder for precision
-- Full React 19/TypeScript frontend — voice input via Web Speech API, two-step OTP registration, collapsible accordion sidebar, React Query for server state
-- Dark, purple-accented UI built for a premium, non-generic feel
+## Currently
 
-**[JobFit](https://github.com/shubhrato-badole/jobfit)** — AI-powered job-matching platform
-> React · Node.js · PostgreSQL · Redis · Docker · Gemini AI · GitHub Actions
-- Redis caching cut AI API latency from ~4s to <5ms (99.9% reduction)
-- Two-token JWT auth system with httpOnly cookies + Google OAuth
-- Dockerized with Nginx reverse proxy, CI/CD via GitHub Actions
-- Deployed on Vercel + Render
+- Data structures and algorithms for technical interviews
+- System design for production-scale AI and RAG systems
+- AI security: LLM vulnerabilities and the OWASP LLM Top 10
 
-**[Spur RAG Pipeline](https://github.com/shubhrato-badole/spur)** — RAG microservice built from scratch
-> Python · FastAPI · pgvector · Gemini Embeddings · PostgreSQL
-- No LangChain, no LlamaIndex — built to understand RAG internals, not just wire up a framework
-- Custom sentence-boundary-aware chunker (500-char chunks, 100-char overlap)
-- `gemini-embedding-001` at 768 dimensions, cosine similarity via pgvector
+Certified Cyber Forensic Examiner (2025) · Deloitte Cybersecurity Virtual Experience (2024)
 
-**[Portfolio](https://github.com/shubhrato-badole/shubhrato-portfolio)** — Interactive developer portfolio
-> React · TypeScript · Vite · Tailwind CSS
-- Custom typewriter entry gate, animated star-canvas hero
-- Bug-squash browser game + circuit puzzle easter egg (unlocks résumé download)
-
----
-
-### Tech stack
-
-```
-Languages     Python · JavaScript · TypeScript · SQL · Bash
-AI/RAG        LangGraph · Hybrid Search (BM25 + RRF) · BGE Reranker
-              Vector Embeddings · Semantic Search · Gemini API · Groq
-              pgvector · ChromaDB · LLM Prompt Engineering
-Frontend      React 19 · Tailwind CSS · Vite
-Backend       Node.js · Express · FastAPI
-Databases     PostgreSQL · Redis
-DevOps        Docker · Nginx · GitHub Actions · Render · Vercel
-Security      OWASP Top 10 · JWT/bcrypt · Digital Forensics · SOC
-```
-
----
-
-### GitHub stats
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shubhrato-badole&layout=compact&theme=dark&hide_border=true)
-
----
-
-### Currently sharpening
-
-- Data Structures & Algorithms for high-bar technical interviews
-- System design for production-scale AI/RAG systems
-- AI Security Engineering (LLM vulnerabilities + OWASP LLM Top 10)
-
----
-
-<div align="center">
-
-*Always open to interesting problems — [bshubhrato@gmail.com](mailto:bshubhrato@gmail.com)*
-
-</div>
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:080808&height=100&section=footer)
+The best way to reach me is [bshubhrato@gmail.com](mailto:bshubhrato@gmail.com).
