@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Shubhrato Badole: Software Engineer, AI and RAG systems, Backend" width="100%" />
+  <img src="assets/banner.png" alt="Shubhrato Badole: Software Engineer, AI and RAG systems, Backend" width="100%" />
 </p>
 
 <p align="center">
