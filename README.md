@@ -20,7 +20,7 @@ B.Tech in Computer Science (Cyber Security), 2026. My security background, inclu
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/shubhrato-badole/researchmind-ai"><img src="assets/researchmind.png" alt="ResearchMind AI flagging a contradiction between two documents and citing both sources" /></a>
-      <h3><a href="https://github.com/shubhrato-badole/researchmind-ai">ResearchMind AI</a></h3>
+      <h3><a href="https://github.com/shubhrato-badole/researchmind-ai">ResearchMind AI</a> <a href="researchmind-ai-pi.vercel.app">Live demo</a></h3>
       <p>Agentic RAG assistant that answers from your own documents, with sources.</p>
       <ul>
         <li>LangGraph agent that asks for approval before searching the web. Answers cite their sources and flag contradictions between documents.</li>
