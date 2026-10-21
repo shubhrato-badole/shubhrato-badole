@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/shubhrato">LinkedIn</a> ·
-  <a href="https://shubhrato.dev">Portfolio</a> ·
+  <a href="[https://linkedin.com/in/shubhrato](https://www.linkedin.com/in/shubhrato-badole-5096381ba/)">LinkedIn</a> ·
+  <a href="https://shubhrato.in">Portfolio</a> ·
   <a href="mailto:bshubhrato@gmail.com">bshubhrato@gmail.com</a>
 </p>
 
